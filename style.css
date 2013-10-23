@@ -1,0 +1,499 @@
+* {
+    text-decoration: none;
+    font-size: 1em;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    }
+	
+a, img, a img, iframe, form, fieldset, 
+abbr, acronym, object, applet, table {
+    border: none; 
+}
+
+html, body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	height: 100%; /* remove ie's main scrollbar */
+	margin: 0px;
+	color: #666666;
+	background-color: #F6F6F6;
+	background-image: url(images/light-bg.png);
+	background-repeat: repeat;
+}
+
+.main-container {
+	height: auto;
+	min-height: 100%;
+	position: relative;
+	background-image: url(images/top-head-bg.png);
+	background-repeat: repeat-x;
+}
+.wrapper {
+	margin-right: auto;
+	margin-left: auto;
+	width: 1000px; /*Change width to 670px if you remove Twitter column*/
+}
+
+.left-col {
+	width: 670px;
+	float: left;
+	height: 300px;
+	height: auto;
+	min-height: 300px;
+	background-image: url(images/top-bg-highlight.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.right-col {
+	width: 280px;
+	padding: 0px;
+	margin: 0px;
+	float: right;
+	background-image: url(images/twitter-rep.png);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+.left-inner {
+	padding-top: 25px;	
+}
+
+.right-inner {
+	background-image: url(images/twitter-top.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+	}
+html[xmlns] .clearfix {
+	display: block;
+	}
+* html .clearfix {
+	height: 1%;
+}
+.wrap {
+	background-image: url(images/progress-bg.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 35px;
+	height: 110px;
+}
+
+.progress-wrap {
+	width: 646px;
+	padding-left: 1px;
+	height: auto;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.progress-bar {
+	width: 100%;
+	height: 38px;
+	background-repeat: repeat-x;
+	background-position: left top;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #FFFFFF;
+	margin-bottom: 2px;
+}
+
+.progress-bar-wrap {
+	width: 0px;
+	height: 100px;
+}
+
+.border-line {
+	float: right;
+	height: 37px;
+	width: 1px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #EAEAEA;
+}
+
+.progress-indicator {
+	width: 100%;
+	text-align: right;
+	background-image: url(images/dot.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	height: 35px;
+	font-size: 12px;
+	padding-left: 23px;
+	font-weight: bold;
+	color: #2A2A2A;
+	display: none;
+}
+
+#moving-arrow {
+	height: 0px;
+	width: 45px;
+	float: right;
+	background-image: url(images/percent-bg.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.progress-amount {
+	font-weight: bold;
+}
+
+.amount-number {
+	float: right;
+	padding-top: 12px;
+	width: 44px;
+	text-align: center;
+	padding-bottom: 5px;
+	display: none;
+	line-height: 15px;
+}
+
+.logo {
+	float: left;
+}
+
+.date-holder {
+	float: right;
+	width: 311px;
+	margin-right: 5px;
+	margin-top: 31px;
+}
+.dates-wrap {
+	background-image: url(images/date-bg.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 311px;
+	height: 55px;
+	padding-top: 25px;
+}
+.month, .day, .year {
+	float: left;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 35px;
+	padding-top: 9px;
+	padding-bottom: 10px;
+}
+
+.month, .day  {
+	width: 89px;
+}
+
+.year {
+	width: 132px;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #848484;
+	margin: 0px;
+	padding-top: 45px;
+	padding-bottom: 25px;
+}
+h2 {
+	font-size: 15px;
+	background-image: url(images/small-arrow.png);
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	background-position: left bottom;
+	font-weight: normal;
+	color: #424242;
+	margin-top: 4px;
+	margin-right: 0px;
+	margin-bottom: 4px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	line-height: 15px;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+
+a:link, a:visited{
+	color: #333333;
+	text-decoration:none;
+}
+a:hover {
+	color: #999999;
+	text-decoration:underline;
+}
+
+.footer a:link, .footer a:link  {
+	color: #F8F8F8;
+}
+.footer a:hover {
+	color: #333333;
+}
+
+.content-area {
+	background-image: url(images/text-bg.png);
+	background-repeat: repeat-y;
+	background-position: left top;
+	color: #555555;
+	line-height: 22px;
+	margin-bottom: 40px;
+}
+.bottom-content {
+	background-image: url(images/bottom-text-bg.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	display: block;
+	height: 50px;
+	height:auto;
+}
+.top-content {
+	background-image: url(images/top-text-bg.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	display: block;
+	height: 40px;
+	height:auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.text-wrap {
+	padding-top: 3px;
+	padding-right: 40px;
+	padding-bottom: 3px;
+	padding-left: 15px;
+}
+
+.follow-me-wrap {
+	background-image: url(images/bottom-button.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-align: left;
+	padding-top: 18px;
+	padding-bottom: 7px;
+}
+
+.follow-me-wrap a {
+	background-image: url(images/followme-on.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	display: block;
+	height: 40px;
+	width: 200px;
+	margin-left: 60px;
+}
+
+.follow-me-wrap a:hover {
+	background-image: url(images/followme-over.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	display: block;
+}
+
+
+.twitter-feed {
+	padding-top: 240px;
+	padding-right: 34px;
+	padding-bottom: 30px;
+	padding-left: 34px;
+	color: #003366;
+	height: 200px;
+	height: auto;
+	min-height: 200px;
+}
+
+.footer {
+	font-size: 13px;
+	margin-bottom: 0px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	color: #FCFCFC;
+	padding-right: 25px;
+}
+
+#twitter_update_list li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	list-style-image: none;
+	list-style-type: none;
+}
+
+#twitter_update_list li a {
+	color: #FFFFFF;
+}
+
+.space {
+	padding-right: 5px;
+	padding-left: 15px;
+}
+
+.phone-email-wrap {
+	float: left;
+	padding-top: 5px;
+	width: 500px;
+}
+.form-wrap {
+	position: relative;
+	float: right;
+	margin-right: 5px;
+}
+
+.form-bubble {
+	position: absolute;
+	left: -176px;
+	top: -70px;
+	background-color: transparent;
+	background-image: url(images/bubble-bg.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 60px;
+	width: 280px;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #2B2B2B;
+	display: none;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	
+	
+}
+
+input#email-element {
+	background-color: #FFFFFF;
+	background-image: url(images/form-bg.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+	border: 1px solid #BABABA;
+	width: 200px;
+	padding-top: 5px;
+	padding-right: 2px;
+	padding-bottom: 5px;
+	padding-left: 2px;
+	margin-right: 10px;
+}
+
+.form-register {
+	line-height: 15px;
+}
+
+.email-submit {
+	background-image: url(images/send-but-on.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	display: inline-block;
+	height: 29px;
+	width: 55px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.email-submit:hover {
+	background-image: url(images/send-but.png);
+	cursor: pointer;
+}
+
+.update-button {
+	background-image: url(images/ud-button1.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 29px;
+	width: 123px;
+	display: block;
+	margin-top: 1px;
+}
+
+.update-button:hover {
+	background-image: url(images/ud-button2.png);
+}
+
+.register-success {
+	font-size: 12px;
+	color: #009900;
+}
+
+.form-error {
+	color: #CC0000;
+}
+
+.close-bubble {
+    line-height: 13px;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.close-bubble a:link {
+    color: #333333;
+}
+.close-bubble a:hover {
+    color: #CC0000;
+}
+
+/*GREEN*/
+.green {
+	color: #b6d731;
+	font-weight: bold;
+}
+.pb-green {
+	background-image: url(images/green-progress.png);
+}
+
+/*YELLOW*/
+.yellow {
+	color: #f4eb00;
+	font-weight: bold;
+}
+.pb-yellow {
+	background-image: url(images/yellow-progress.png);
+}
+
+/*RED*/
+.red {
+	color: #b60e21;
+	font-weight: bold;
+}
+.pb-red {
+	background-image: url(images/red-progress.png);
+}
+
+/*BLUE*/
+.blue {
+	color: #31a4ca;
+	font-weight: bold;
+}
+.pb-blue {
+	background-image: url(images/blue-progress.png);
+}
+
+/*PURPLE*/
+.purple {
+	color: #c133cc;
+	font-weight: bold;
+}
+.pb-purple {
+	background-image: url(images/purple-progress.png);
+}

@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* SeeDoGive CSS Document */
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+	size:11px;
+	margin:0;
+	padding:0;
+	background:url(../images/bgcolor_ing.jpg) repeat-x;
+}
+img {
+	border:0;
+	margin:0;
+	padding:0;
+}
+#container {
+	width:990px;
+	margin:auto;
+}
+#containerTwo {
+	width:318px;
+	margin:auto;
+	padding-top:180px;
+}
+.clear {
+	clear:both;
+}
+#header {
+	margin:4px 0 6px 0;
+	padding:0;
+}
+.logo {
+	float:left;
+	margin:0;
+	padding:0 0 8px 0;
+}
+.adminText {
+	float:right;
+	margin:0;
+	padding:28px 0 0 0;
+	font-size:11px;
+	color:#FFF;
+}
+.adminText a {
+	margin:0;
+	padding:28px 0 0 0;
+	font-size:11px;
+	color:#FFF;
+	text-decoration:none;
+}
+.adminText a:hover {
+	margin:0;
+	padding:28px 0 0 0;
+	font-size:11px;
+	color:#eceeef;
+}
+#menu {
+	background:url(../images/menu.png) no-repeat;
+	width:990px;
+	height:30px;
+	padding:0;
+	margin:5px 0 0 0;
+}
+
+#menu ul {
+	list-style:none;
+	margin:3px 22px;
+	padding:0;
+}
+#menu li {
+	float:left;
+	margin:0;
+	padding:3px 30px;
+}
+#menu ul li a {
+	color:#FFF;
+	font-size:12px;
+	text-decoration:none;
+	font-weight:bold;
+	text-shadow:1px 1px 1px #50504f;
+}
+#menu ul li a:hover {
+	color:#000;
+	font-size:12px;
+	text-decoration:none;
+	font-weight:bold;
+	padding:0;
+	margin:0;
+}
+#formline {
+	border-left:#386da3 solid 1px;
+	border-right:#386da3 solid 1px;
+	border-bottom:#386da3 solid 1px;
+	margin:0;
+	padding:20px 20px;
+	height:490px;
+}
+.form {
+	width:950px;
+	font-size:12px;
+	text-align:center;
+}
+#adminLogo {
+	padding:200px 0 5px 0;
+	margin:0;
+}
+.adminFormBgcolor {
+	background:url(../images/adminFormBgcolor01_imtg.png) no-repeat;
+	padding:0;
+	margin:0 0 281px 0;
+	width:318;
+	height:190px;
+}
+#footer {
+	background:url(../images/footercolor_ing.jpg) repeat-x;
+	margin:0;
+	padding:0;
+	height:50px;
+}
+#footercontainer {
+	margin:auto;
+	padding:0;
+	height:50px;
+	width:990px
+}
+.menu {
+	float:left;
+	color:#FFF;
+	margin:0;
+	padding:17px 0;
+	font-size:12px;
+}
+.menu a{
+	color:#FFF;
+	margin:0 3px 0 0;
+	padding:3px 3px;
+	font-size:12px;
+	text-decoration:none;
+}
+.menu a:hover{
+	color:#f4f4f4;
+	margin:0 3px 0 0;
+	padding:3px 3px;
+	font-size:12px;
+	text-decoration:underline;
+}
+
+.copyRights {
+	float:right;
+	color:#FFF;
+	margin:0;
+	padding:17px 0;
+	font-size:12px;
+}
+
+ .button_row {
+  text-align:right;
+}
+.button_row a {
+ background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #78a321), color-stop(100%, #78a321));
+ background-image: -webkit-linear-gradient(top, #78a321, #9ccb3d);
+ background-image: -moz-linear-gradient(top, #78a321, #9ccb3d);
+ background-image: -o-linear-gradient(top, #78a321, #9ccb3d);
+ background-image: -ms-linear-gradient(top, #78a321, #9ccb3d);
+ background-image: linear-gradient(top, #78a321, #9ccb3d);
+ border-radius: 3px 3px 3px 3px;
+ color: white;
+ text-decoration:none;
+ font-weight:bold;
+ font-size:12px;
+ padding: 10px;
+ box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+ text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.1);
+ text-transform: capitalize;
+}
+.button_row a:hover {
+ background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #376799), color-stop(100%, #376799));
+ background-image: -webkit-linear-gradient(top, #376799, #376799);
+ background-image: -moz-linear-gradient(top, #376799, #376799);
+ background-image: -o-linear-gradient(top, #376799, #376799);
+ background-image: -ms-linear-gradient(top, #376799, #376799);
+ background-image: linear-gradient(top, #376799, #376799);
+}
+
+/* SeeDoGive CSS Document End */

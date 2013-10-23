@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* SeeDoGive CSS Document */
+body{
+font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+background:url(../images/bgcolor_ing.jpg) repeat-x;
+margin:0px;
+color:#000000;
+min-height:100%;
+}
+p, h1, form, button{border:0; margin:0; padding:0;}
+.spacer{clear:both; height:1px;}
+img { border:0; }
+#header {
+	width:990px;
+	margin:auto;
+}
+.logo {
+	padding:8px 0 0px 0;
+}
+
+#container {
+	width:990px;
+	margin:auto;
+	height:700px;
+}
+
+#login {
+background:#ebf4fb;
+margin-left:380px;
+width:250px;
+padding:14px;
+position:absolute;
+top:320px;
+}
+
+#stylized {
+background:#ebf4fb;
+margin-left:280px;
+width:400px;
+padding:14px;
+position:absolute;
+top:250px;
+}
+.myform{
+width:476px;
+padding:14px;
+}
+
+/*#stylized{
+border:solid 2px #b7ddf2;
+background:#ebf4fb;
+margin-top:20px;
+margin-bottom:10px;
+margin-left:100px;
+width:476px;
+}*/
+#stylized h1 {
+font-size:14px;
+font-weight:bold;
+margin-bottom:8px;
+}
+#stylized p{
+font-size:11px;
+color:#666666;
+margin-bottom:20px;
+border-bottom:solid 1px #b7ddf2;
+padding-bottom:10px;
+}
+#stylized label{
+display:block;
+/*font-weight:bold;*/
+text-align:right;
+width:140px;
+float:left;
+}
+#stylized .small{
+color:#FF0000;
+/*display:block;*/
+font-size:11px;
+font-weight:normal;
+text-align:right;
+width:140px;
+}
+#stylized input,textarea,select{
+float:left;
+font-size:12px;
+padding:4px 2px;
+border:solid 1px #aacfe4;
+width:200px;
+margin:2px 0 20px 10px;
+}
+#stylized button{
+clear:both;
+margin-left:150px;
+width:125px;
+height:31px;
+background:#666666 url(img/button.png) no-repeat;
+text-align:center;
+line-height:31px;
+color:#FFFFFF;
+font-size:11px;
+font-weight:bold;
+}
+#stylized .button1{
+margin-left:20px;
+width:125px;
+height:31px;
+background:#666666 url(img/button.png) no-repeat;
+text-align:center;
+line-height:31px;
+color:#FFFFFF;
+font-size:11px;
+font-weight:bold;
+}
+#images {
+width:200px;
+float:left;
+margin-top:20px;
+}
+
+#footer {
+font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+background:url(../images/bgcolor_ing.jpg) repeat-x;
+height:50px;
+}
+
+#footercontainer {
+	margin:auto;
+	padding:0;
+	height:50px;
+	width:990px
+}
+.menu {
+	float:left;
+	color:#FFF;
+	margin:0;
+	padding:17px 0;
+	font-size:12px;
+}
+.menu a{
+	color:#FFF;
+	margin:0 3px 0 0;
+	padding:3px 3px;
+	font-size:12px;
+	text-decoration:none;
+}
+.menu a:hover{
+	color:#f4f4f4;
+	margin:0 3px 0 0;
+	padding:3px 3px;
+	font-size:12px;
+	text-decoration:underline;
+}
+
+.copyRights {
+	float:right;
+	color:#FFF;
+	margin:0;
+	padding:17px 0;
+	font-size:12px;
+}

@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* SeeDoGive CSS Document */
+body{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+background:url(../images/bgcolor_ing.jpg) repeat-x;
+}
+p, h1, form, button{border:0; margin:0; padding:0;}
+.spacer{clear:both; height:1px;}
+
+img {
+	border:0;
+	margin:0;
+	padding:0;
+}
+#container {
+	width:990px;
+	margin:auto;
+}
+.clear {
+	clear:both;
+}
+#header {
+	margin:4px 0 6px 0;
+	padding:0;
+}
+.logo {
+	float:left;
+	margin:0;
+	padding:0 0 8px 0;
+}
+.adminText {
+float:right;
+	margin-right:40px;
+	padding:28px 0 0 0;
+	font-size:11px;
+}
+.adminText a {
+	color:#FFF;
+}
+
+/* ----------- My Menu ----------- */
+#menu {
+	background:url(../images/menu.png) no-repeat;
+	width:990px;
+	height:30px;
+	padding:0;
+	margin:5px 0 0 0;
+}
+#menu ul {
+    letter-spacing: 1px;
+    list-style: none outside none;
+    margin: 2px 16px 0 12px;
+    padding: 1px 0 0 0px;
+}
+#menu li {
+    float: left;
+    margin: 0;
+    padding: 3px 11px 0 29px;
+}
+#menu ul li a {
+	color:#FFF;
+	font-size:12px;
+	text-decoration:none;
+	font-weight:bold;
+	text-shadow:1px 1px 1px #50504f;
+}
+#menu ul li a:hover {
+	color:#000;
+	font-size:12px;
+	text-decoration:none;
+	font-weight:bold;
+	padding:0;
+	margin:0;
+}
+#menu ul li a.current1 {
+color:#9CCB3D;
+}
+#formlineTwo {
+	border-left:#386da3 solid 1px;
+	border-right:#386da3 solid 1px;
+	border-bottom:#386da3 solid 1px;
+	margin:0;
+	padding:15px 0 0 20px;
+	overflow:hidden;
+	height: 660px;
+}
+/* ----------- My Form ----------- */
+.myform{
+width:476px;
+padding:14px;
+}
+
+#stylized{
+/*border:solid 2px #b7ddf2;*/
+background:#ebf4fb;
+margin-top:20px;
+margin-bottom:10px;
+margin-left:100px;
+width:476px;
+float:left;
+}
+#stylized h1 {
+font-size:14px;
+font-weight:bold;
+margin-bottom:8px;
+}
+#stylized p{
+font-size:11px;
+color:#666666;
+margin-bottom:20px;
+border-bottom:solid 1px #b7ddf2;
+padding-bottom:10px;
+}
+#stylized label{
+display:block;
+/*font-weight:bold;*/
+text-align:right;
+width:140px;
+float:left;
+}
+#stylized .small{
+color:#FF0000;
+/*display:block;*/
+font-size:11px;
+font-weight:normal;
+text-align:right;
+width:140px;
+}
+#stylized input,textarea,select{
+float:left;
+font-size:12px;
+padding:4px 2px;
+border:solid 1px #aacfe4;
+width:200px;
+margin:2px 0 20px 10px;
+}
+#stylized button{
+clear:both;
+margin-left:150px;
+width:125px;
+height:31px;
+background:#666666 url(img/button.png) no-repeat;
+text-align:center;
+line-height:31px;
+color:#FFFFFF;
+font-size:11px;
+font-weight:bold;
+}
+#stylized .button1{
+margin-left:20px;
+width:125px;
+height:31px;
+background:#666666 url(img/button.png) no-repeat;
+text-align:center;
+line-height:31px;
+color:#FFFFFF;
+font-size:11px;
+font-weight:bold;
+}
+#images {
+width:200px;
+float:left;
+margin-top:20px;
+}
+
+/* ----------- My Footer ----------- */
+#footer {
+	background:url(../images/footercolor_ing.jpg) repeat-x;
+	margin:0;
+	padding:0;
+	height:50px;
+}
+#footercontainer {
+	margin:auto;
+	padding:0;
+	height:50px;
+	width:990px
+}
+.menu {
+	float:left;
+	color:#FFF;
+	margin:0;
+	padding:17px 0;
+	font-size:12px;
+}
+.menu a{
+	color:#FFF;
+	margin:0 3px 0 0;
+	padding:3px 3px;
+	font-size:12px;
+	text-decoration:none;
+}
+.menu a:hover{
+	color:#f4f4f4;
+	margin:0 3px 0 0;
+	padding:3px 3px;
+	font-size:12px;
+	text-decoration:underline;
+}
+
+.copyRights {
+	float:right;
+	color:#FFF;
+	margin:0;
+	padding:17px 0;
+	font-size:12px;
+}
+

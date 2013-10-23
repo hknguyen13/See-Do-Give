@@ -1,0 +1,33 @@
+<html>
+    <h1 Align=Center> Medical Details </h1>
+<hr size=5 width=75%> 
+<table>
+<td>
+<pre>
+<b>                 Visit Number:	</b><input type="number" name="Visit Number"><br></br>
+<b>                 Hospital Name:	</b><input type="text" name="Hospital Name"><br></br>
+<b>                 Location:	</b><input type="text" name="Location"><br></br>
+<b>                 Doctor Name:	</b><input type="text" name="Doctor Name"><br></br>
+<b>                 Department:	</b><select>
+    <option value="o"> Select 
+    <option value="1"> Dentist
+        <option value="2"> Neurologist
+            <option value="3"> Dermatologist
+                <option value="4"> General
+                    <option value="5"> Optometrist 
+                    <option value="1"> Pediatrician </select><br></br>
+<form name="myform" action="checkboxes.asp" method="post">
+<b>                 Visit Type: </b> 
+<script type="text/javascript">
+	function showStuff(id) {
+		document.getElementById(id).style.display = 'block';
+	}
+</script><p><a href="#" onclick="showStuff('answer1'); return false;"> In Patient </a> <span id="answer1" style="display: none;"><b> Admitted room number:       </b><input type="number" name="Admitted room number"<br></br><b> Date of join:               </b><input type="number" name="Date of join"<br></br><b> Date of discharge:          <input type="number" name="Date of discharge"></span></p>
+<p><a href="#" onclick="showStuff('answer2'); return false;"> Out Patient </a><br>
+                 Tests:          <input type=" " name="tests" rows="4" colos="30"><br></br>
+<b>                Medicines:  <input type="text"style="width:300px ; height:100px;"><br></br>
+                         <button type="button" onclick="alert('Saved...!!')" > Save </button>
+</pre>
+</td>
+</table>
+</html>
